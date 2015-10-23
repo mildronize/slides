@@ -143,16 +143,69 @@ background-size: contain;
 
 # ใช้อะไรสร้างบล๊อคดี
 - Wordpress ?
---
-
 - Blogger ?
---
-
 - Medium ?
---
-
 - Tumblr ?
 
+## ผมใช้ GitHub Page
+---
+# เหตุผลที่ผมใช้ GitHub Page
+- Editor ตระกูล `WYSIWYG` ยังไม่ดีพอ
+--
+
+- ใช้ Markdown
+--
+
+- Hackable (powered by `Jekyll`)
+
+--
+- สร้าง Profile ให้ตัวเอง
+
+---
+# ทำความรู้จักกับ Markdown
+- เขียนง่าย
+- เป็นภาษาสำหรับสร้าง Content
+- ไม่เน้น Syntax
+- ใช้งานมากใน Community
+- `Markdown` --> `HTML`
+
+![:scale 20%](https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png)
+```
+http://dev.mildronize.com/notes/markdown/
+```
+---
+# ตัวอย่าง ภาษา Markdown
+```
+# นี่คือ tag H1 ใน HTML
+### นี่คือ tag H3 ใน HTML
+
+- อันนี้คือ list
+- สวัสดี Barcamp @Songkhla
+
+![อันนี้คือ รูปภาพ](http://placehold.it/100x100)
+[อันนี้คือ Link](http://dev.mildronize.com)
+```
+
+---
+# การแสดงผลของ Markdown
+
+# นี่คือ tag H1 ใน HTML
+### นี่คือ tag H3 ใน HTML
+
+- อันนี้คือ list
+- สวัสดี Barcamp @Songkhla
+
+![อันนี้คือ รูปภาพ](http://placehold.it/100x100)
+
+[อันนี้คือ Link](http://dev.mildronize.com)
+
+---
+# Jekyll
+- Static web generater by Ruby
+- Hackable
+- Support: Mac, Windows, Linux
+
+.right[![:scale 50%](http://jekyllrb.com/img/logo-2x.png)]
 ---
 # GitHub Page
 - ฟรี
@@ -168,6 +221,11 @@ background-size: contain;
 --
 
 - มีคนใช้เยอะ
+
+.right[![:scale 30%](https://assets-cdn.github.com/images/modules/logos_page/Octocat.png)]
+```
+http://dev.mildronize.com/2015/05/03/how-to-setup-this-blog/#related-resources
+```
 
 ---
 
@@ -302,4 +360,9 @@ class: center, middle
 - **RemarkJS** : สร้าง slide การนำเสนอครั้งนี้ โดย `Markdown`
 - **Awesome List**: รายการที่รวมเทคโนโลยีในการ development ที่เยี่ยมมาก <https://github.com/sindresorhus/awesome>
 - **Tabular.Vim**: plugin ของ Vim ที่ช่วยเว้นวรรคให้สวยงาม
-- <http://bigtext.org/>
+- <http://bigtext.org/> ช่วยสร้าง รูปภาพตัวอักษร
+
+---
+class: center, middle
+# พูดคุยแลกเปลี่ยน
+
