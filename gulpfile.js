@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
+var ghPages = require('gulp-gh-pages');
 
 gulp.task('webserver', function() {
   gulp.src('slides')
@@ -14,4 +15,9 @@ gulp.task('watch', function() {
   gulp.src('resources/fonts/*')
 })
 
-gulp.task('default', ['webserver','watch']);
+gulp.task('deploy', function() {
+  return gulp.src('./slides/**/*')
+    .pipe(ghPages());
+});
+
+gulp.task('serve', ['webserver','watch']);
