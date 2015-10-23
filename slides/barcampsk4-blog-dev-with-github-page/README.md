@@ -7,6 +7,64 @@ class: center, middle
 ```
 ---
 
+# Who Am I?
+```
+I am
+ __  __ _ _     _                 _
+|  \/  (_) | __| |_ __ ___  _ __ (_)_______
+| |\/| | | |/ _` | '__/ _ \| '_ \| |_  / _ \
+| |  | | | | (_| | | | (_) | | | | |/ /  __/
+|_|  |_|_|_|\__,_|_|  \___/|_| |_|_/___\___|
+
+Thada Wangthammang
+My Blog site | http://dev.mildronize.com      |
+GitHub       | https://github.com/mildronize  |
+Facebook     | http://fb.me/mildronize        |
+Twitter      | https://twitter.com/mildronize |
+Mail         | mildronize@gmail.com           |
+```
+
+.right[![:scale 25%](https://avatars3.githubusercontent.com/u/3647850?v=3&s=460)]
+
+---
+
+# What I do?
+```
+# Tools
+Polymer
+React
+AngularJs
+NodeJS
+
+# Languages
+HTML5
+CSS3
+JavaScript
+Python
+C/C++
+
+# Editors
+Vim + TMUX
+See more at my dotfiles: https://github.com/mildronize/dotfiles
+```
+--
+
+### Anything Else?
+```
+# Photography
+Flickr  https://www.flickr.com/mildronize
+500px   https://500px.com/mildronize
+```
+
+---
+
+background-image: url(http://c1.staticflickr.com/9/8724/17546778415_b6107a31bc_h.jpg)
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+---
+
 class: center, middle
 # ใครเป็น Developer บ้าง ?
 ---
@@ -83,62 +141,6 @@ class: center, middle
 - บันทึกความจำ
 - เข้าใจในเรื่องที่เราเขียนมากขึ้น
 - ได้เรียนรู้จากการแบ่งปัน
----
-
-# Who Am I?
-```
-I am
- __  __ _ _     _                 _
-|  \/  (_) | __| |_ __ ___  _ __ (_)_______
-| |\/| | | |/ _` | '__/ _ \| '_ \| |_  / _ \
-| |  | | | | (_| | | | (_) | | | | |/ /  __/
-|_|  |_|_|_|\__,_|_|  \___/|_| |_|_/___\___|
-
-My Blog site | http://dev.mildronize.com      |
-GitHub       | https://github.com/mildronize  |
-Facebook     | http://fb.me/mildronize        |
-Twitter      | https://twitter.com/mildronize |
-```
-
-.right[![:scale 25%](https://avatars3.githubusercontent.com/u/3647850?v=3&s=460)]
-
----
-
-# What I do?
-```
-# Tools
-Polymer
-React
-AngularJs
-NodeJS
-
-# Languages
-HTML5
-CSS3
-JavaScript
-Python
-C/C++
-
-# Editors
-Vim + TMUX
-See more at my dotfiles: https://github.com/mildronize/dotfiles
-```
---
-
-### Anything Else?
-```
-# Photography
-Flickr  https://www.flickr.com/mildronize
-500px   https://500px.com/mildronize
-```
-
----
-
-background-image: url(http://c1.staticflickr.com/9/8724/17546778415_b6107a31bc_h.jpg)
-background-position: center;
-background-repeat: no-repeat;
-background-size: contain;
-
 ---
 
 # ใช้อะไรสร้างบล๊อคดี
