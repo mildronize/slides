@@ -1,6 +1,6 @@
 class: center, middle
 
-# Blog for Developer
+# Let's Make a Blog in Developer Way
 ### BarcampSk#4
 ```
 24102015 @Tuber, Songkhla
@@ -26,7 +26,7 @@ class: center, middle
 
 ### 3. JavaScript ?
 
-![Question](http://en.hdyo.org/assets/ask-question-2-fb180173e13f21ad6ae73ba29b08cd02.jpg)
+![Question](http://teachinginkoreanuniversity.com/wp-content/uploads/2015/06/Questions.jpg)
 
 ---
 class: center, middle
@@ -67,27 +67,176 @@ class: center, middle
 
 ---
 class: center, middle
-# จำไม่หมด ก็จด
+# จำไม่หมด ก็จดดีกว่า
+
+---
+class: center, middle
+# จดในไหน? จดใน Blog ดีกว่า
+
+---
+class: center, middle
+# เขียน Blog ดียังไง?
 
 ---
 
-## จดที่ไหน ?
-- ในสมุด ?
-- บนโต๊ะ ?
-- ในคอม ?
-- ใน Cloud ?
+# เขียน Blog ดียังไง?
+- บันทึกความจำ
+- เข้าใจในเรื่องที่เราเขียนมากขึ้น
+- ได้เรียนรู้จากการแบ่งปัน
+---
 
+# Who Am I?
+```
+I am
+ __  __ _ _     _                 _
+|  \/  (_) | __| |_ __ ___  _ __ (_)_______
+| |\/| | | |/ _` | '__/ _ \| '_ \| |_  / _ \
+| |  | | | | (_| | | | (_) | | | | |/ /  __/
+|_|  |_|_|_|\__,_|_|  \___/|_| |_|_/___\___|
+
+My Blog site | http://dev.mildronize.com      |
+GitHub       | https://github.com/mildronize  |
+Facebook     | http://fb.me/mildronize        |
+Twitter      | https://twitter.com/mildronize |
+```
+
+.right[![:scale 25%](https://avatars3.githubusercontent.com/u/3647850?v=3&s=460)]
+
+---
+
+# What I do?
+```
+# Tools
+Polymer
+React
+AngularJs
+NodeJS
+
+# Languages
+HTML5
+CSS3
+JavaScript
+Python
+C/C++
+
+# Editors
+Vim + TMUX
+See more at my dotfiles: https://github.com/mildronize/dotfiles
+```
 --
 
-## Privacy ?
-- Private ?
-- Public ?
+### Anything Else?
+```
+# Photography
+Flickr  https://www.flickr.com/mildronize
+500px   https://500px.com/mildronize
+```
 
 ---
 
-## Private
+background-image: url(http://c1.staticflickr.com/9/8724/17546778415_b6107a31bc_h.jpg)
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
 
 ---
+
+class: middle
+# ใช้อะไรสร้างบล๊อคดี
+- Wordpress ?
+- Blogger ?
+- Medium ?
+- Tumblr ?
+
+---
+class: middle
+
+# คุณควรรู้ / มีอะไรก่อนบ้าง
+- GitHub Account
+- Git
+- Markdown
+
+---
+
+class: center, middle
+# My Blog with GitHub Page
+### (Powered by Jekyll)
+```
+Source:   https://github.com/mildronize/mildronize.github.io
+```
+---
+
+background-image: url(http://i.imgur.com/tIiz81K.png)
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+---
+class: center, middle
+# Let's Make a Blog with GitHub Page
+---
+class: middle
+
+## 4 ขั้นตอนง่ายๆ ในการติดตั้ง
+1. สร้าง repository ในชื่อว่า [username].github.io
+2. เลือก theme ที่ชอบ
+3. สร้าง โพส แรกใน blog ด้วย Markdown
+4. Publish โพส
+---
+
+# 1. สร้าง repository ใน Github
+- สร้าง repository ชื่อ [username].github.io
+- เช่น `mildronize.github.io`
+- Clone project ของคุณลงมา
+```
+More detail : https://pages.github.com/
+```
+![](http://i.imgur.com/GSlK43H.png)
+
+
+---
+
+# 2. เลือก theme ที่ชอบ
+- เลือก theme <http://jekyllthemes.org/>
+- Clone theme project ไปยัง project ของเรา
+
+### เช่น
+Hyde theme
+
+```
+$ git clone https://github.com/poole/hyde.git
+```
+
+---
+
+# 3. สร้างโพสแรก
+save at `_post/2015-10-24-first-post.md`
+
+```
+---
+title: สวัสดี Barcamp Songkhla ครั้งที่ 4
+layout: post
+---
+
+โอ้เยส นี่แหละ โพสอันแรก!!!
+
+- สวัสดี Barcamp @Songkhla
+- @Tuber
+- 24/10/2015
+```
+![:scale 80](http://i.imgur.com/OXPwOzr.png)
+
+---
+# 4. เผยแพร่บล็อคของคุณ
+
+### Git Commit & push
+
+Go your site
+```
+http://mildronize.github.io
+```
+---
+
 class: center, middle
 # ทิ้งท้าย
 
@@ -96,6 +245,7 @@ class: center, middle
 ## การสร้าง Resume สไตล์ Developer
 ### # Online Activities
 - GitHub
+- StackOverflow
 - Twitter
 - HackerRank
 - **Blog**
@@ -121,6 +271,7 @@ class: center, middle
 ---
 
 class: center, middle
+
 # Thank you
 
 ---
@@ -129,4 +280,4 @@ class: center, middle
 - **RemarkJS** : สร้าง slide การนำเสนอครั้งนี้ โดย `Markdown`
 - **Awesome List**: รายการที่รวมเทคโนโลยีในการ development ที่เยี่ยมมาก <https://github.com/sindresorhus/awesome>
 - **Tabular.Vim**: plugin ของ Vim ที่ช่วยเว้นวรรคให้สวยงาม
-
+- <http://bigtext.org/>
