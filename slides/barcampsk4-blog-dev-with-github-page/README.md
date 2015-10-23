@@ -207,6 +207,7 @@ http://dev.mildronize.com/notes/markdown/
 
 .right[![:scale 50%](http://jekyllrb.com/img/logo-2x.png)]
 ---
+
 # GitHub Page
 - ฟรี
 --
