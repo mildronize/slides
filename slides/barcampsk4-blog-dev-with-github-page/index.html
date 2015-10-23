@@ -3,39 +3,43 @@
   <head>
     <title>Title</title>
     <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="http://dev.mildronize.com/slides/resources/boon-font.css"> -->
+    <link rel="stylesheet" href="../resources/boon-font.css">
+    <!-- <link rel="stylesheet" href="http://locahost:8000/resources/wp-domino-novel-font.css"> -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-      <link rel="stylesheet" href="../resources/boon-font.css">
-      <link rel="stylesheet" href="../resources/wp-domino-novel-font.css">
-      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+      @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
       body {
-        font-family: 'Droid Serif', Boon, Arial, sans-serif;
+       font-family: 'Droid Serif', Boon, Arial, sans-serif;
       }
       h1, h2, h3 {
-        /* font-family: 'Yanone Kaffeesatz', WpDominoNovel, Arial, sans-serif; */
-        font-family: 'WpDominoNovel';
-        font-weight: normal;
-        font-weight: 600;
+        font-family: Boon;
+        font-weight: bold;
       }
       img {
         max-width: 100%;
-        max-height: 200px;
         margin: 0 0 1rem;
         border-radius: 5px;
       }
       li {
         margin-bottom: 10px;
       }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code, .remark-inline-code { font-family: 'Inconsolata'; }
     </style>
   </head>
   <body>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
     <script>
+    remark.macros.scale = function (percentage) {
+      var url = this;
+      return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
     var slideshow = remark.create({
-      sourceUrl: 'README.md'
+      sourceUrl: 'README.md',
+      highlightLanguage: 'bash',
+      highlightStyle: 'github'
     });
     </script>
   </body>

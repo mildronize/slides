@@ -1,26 +1,26 @@
 @font-face {
-  src: url("fonts/WP_DOMINO_NOVEL_FONTS/WP DOMINO novel.ttf") format("ttf");
-  font-family: "WpDominoNovel";
+  src: url("http://localhost:8000/resources/fonts/WP_DOMINO_novel.ttf") format("truetype");
+  font-family: WpDominoNovel;
   font-style: normal;
 }
 
 @font-face {
-  src: url("fonts/WP_DOMINO_NOVEL_FONTS/WP DOMINO novel italic.ttf") format("ttf");
-  font-family: "WpDominoNovel";
+  src: url("http://localhost:8000/resources/fonts/WP_DOMINO_novel_italic.ttf") format("truetype");
+  font-family: WpDominoNovel;
   font-style: italic;
 }
 
 @font-face {
-  src: url("fonts/WP_DOMINO_NOVEL_FONTS/WP DOMINO novel Bold.ttf") format("ttf");
-  font-family: "WpDominoNovel";
+  src: url("http://localhost:8000/resources/fonts/WP_DOMINO_novel_Bold.ttf") format("truetype");
+  font-family: WpDominoNovel;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 @font-face {
-  src: url("fonts/WP_DOMINO_NOVEL_FONTS/WP DOMINO novel Bold italic.ttf") format("ttf");
-  font-family: "WpDominoNovel";
+  src: url("http://localhost:8000/resources/fonts/WP_DOMINO_novel_Bold_italic.ttf") format("truetype");
+  font-family: WpDominoNovel;
   font-style: italic;
-  font-weight: 600;
+  font-weight: bold;
 }
 
