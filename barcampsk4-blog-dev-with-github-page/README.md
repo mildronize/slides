@@ -141,14 +141,36 @@ background-size: contain;
 
 ---
 
-class: middle
 # ใช้อะไรสร้างบล๊อคดี
 - Wordpress ?
+--
+
 - Blogger ?
+--
+
 - Medium ?
+--
+
 - Tumblr ?
 
 ---
+# GitHub Page
+- ฟรี
+--
+
+- สร้าง Content ด้วย `Markdown`
+--
+
+- เขียนบล็อคใกล้เคียงกับการเขียนโปรแกรม
+--
+
+- ทำงานบน `Jekyll`
+--
+
+- มีคนใช้เยอะ
+
+---
+
 class: middle
 
 # คุณควรรู้ / มีอะไรก่อนบ้าง
