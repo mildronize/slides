@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Let's Make a Blog in Developer Way</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Mildronize">
+    <meta name="description" content="แนะนำวิธีการสร้างบล็อคสไตล์ Developer โดยใช้ GitHub Page และ Jekyll">
+    <meta name="keywords" content="bacrcamp,songkhla,barcampsk,blog,GitHub Page, Jeykll">
+    <!-- <link rel="stylesheet" href="http://dev.mildronize.com/slides/resources/boon-font.css"> -->
+    <link rel="stylesheet" href="../resources/font-Boon.css">
+    <link rel="stylesheet" href="../resources/font-WpDominoNovel.css">
+    <link rel="stylesheet" href="../resources/font-ThaiSansLite.css"> 
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+      /* thai */
+        
+      body {
+       font-family: ThaiSansLite, 'Droid Serif', Arial, sans-serif;
+      }
+      h1, h2, h3 {
+        font-family: ThaiSansLite;
+        font-weight: bold;
+      }
+      img {
+        max-width: 100%;
+        margin: 0 0 1rem;
+        border-radius: 5px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Inconsolata'; }
+        
+    </style>
+  </head>
+  <body>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+    <script>
+    remark.macros.scale = function (percentage) {
+      var url = this;
+      return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
+    var slideshow = remark.create({
+      sourceUrl: 'README.md',
+      highlightLanguage: 'bash',
+      highlightStyle: 'github'
+    });
+    </script>
+  </body>
+</html>
