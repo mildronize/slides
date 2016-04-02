@@ -3,8 +3,9 @@ var webserver = require('gulp-webserver');
 var ghPages = require('gulp-gh-pages');
 
 gulp.task('webserver', function() {
-  gulp.src('slides')
+  gulp.src('./')
     .pipe(webserver({
+      directoryListing: true,
       livereload: true,
       open: true
     }));
