@@ -5,6 +5,7 @@ var ghPages = require('gulp-gh-pages');
 gulp.task('webserver', function() {
   gulp.src('./')
     .pipe(webserver({
+      host: '0.0.0.0',
       directoryListing: true,
       livereload: true,
       open: true
